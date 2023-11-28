@@ -13,7 +13,6 @@ public class InfoService01 {
     public String getData() {
         return formData(getInputs());
     }
-
     private Client<String, String> getInputs() {
         scanner = new Scanner(System.in);
         System.out.print("Enter client's name: ");

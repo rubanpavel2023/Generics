@@ -16,5 +16,6 @@ package app.entity;
 
         public V getValue() {
             return value;
+
         }
 }

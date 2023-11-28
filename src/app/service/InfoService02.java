@@ -34,7 +34,6 @@ public class InfoService02 {
         }
         return new Client<>(name, amount);
     }
-
     private String formData(Client<String, Double> client) {
         String amountRounded = Rounder.roundValue(client.getValue());
         return "Client's phone is " + client.getKey() +
