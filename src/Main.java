@@ -12,6 +12,6 @@ public class Main {
         InfoService02 infoService02 = new InfoService02();
         String DataInfo02 = infoService02.getData();
         System.out.println(DataInfo02);
-        System.out.println();
+
     }
 }
